@@ -6,7 +6,7 @@ if ($opponentWeapon == 'fists') {
     $indyWeapon = 'gun';
 } elseif ($opponentWeapon == 'whip') {
         $indyWeapon = 'fists';
-} elseif ($opponentWeapon == 'gun') {
+} else ($opponentWeapon == 'gun') {
         $indyWeapon = 'whip';
 }
 echo "The oppponent has $opponentWeapon, but Indy beats him with $indyWeapon!";
